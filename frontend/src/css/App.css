@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Segoe UI", serif;
+    line-height: 1.5;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+footer {
+    grid-area: footer;
+    grid-column: auto;
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+header {
+    grid-area: header;
+    line-height: 1px;
+}
+
+main {
+    grid-area: main;
+}
+
+.layout {
+    display: grid;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 0;
+    grid-template-columns: 100%;
+    grid-template-rows: minmax(auto, max-content) auto minmax(auto, max-content);
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+}

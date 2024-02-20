@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Auth from "./pages/Auth";
 import Contacts from "./pages/Contacts";
 import Device from "./pages/Device";
+import Oferta from "./pages/Oferta";
 
 export const authPaths = [
     {
@@ -28,7 +29,11 @@ export const publicPaths = [
         Element: Main
     },
     {
-        path: '/About',
+        path: '/oferta',
+        Element: Oferta
+    },
+    {
+        path: '/about',
         Element: About
     },
     {
@@ -40,11 +45,11 @@ export const publicPaths = [
         Element: Auth
     },
     {
-        path: '/Contacts',
+        path: '/contacts',
         Element: Contacts
     },
     {
-        path: '/Device' + '/:id',
+        path: '/device' + '/:id',
         Element: Device
     }
 ]

@@ -4,26 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1a3eac-a21c-4f2a-a56f-c9576e449bec" name="Changes" comment="Cleared template React #2">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/AppRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/NavBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Basket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Contacts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Device.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/paths.js" afterDir="false" />
+    <list default="true" id="1f1a3eac-a21c-4f2a-a56f-c9576e449bec" name="Changes" comment="Was created basic navigation">
+      <change afterPath="$PROJECT_DIR$/frontend/src/admin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/css/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/css/NavBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Oferta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shopping-cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/DeviceStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/UserStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/user.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Account.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/AppRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/NavBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/paths.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/paths.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -69,27 +69,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Web/E-Store&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Apps\\WebStorm 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Web/E-Store/frontend/src",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
+    "npm.start.executor": "Run",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "ts.external.directory.path": "C:\\Apps\\WebStorm 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Web\E-Store\frontend\src" />
       <recent name="C:\Web\E-Store\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -136,6 +138,7 @@
       <workItem from="1707940442171" duration="928000" />
       <workItem from="1708365238711" duration="8386000" />
       <workItem from="1708415941658" duration="3843000" />
+      <workItem from="1708449139670" duration="18999000" />
     </task>
     <task id="LOCAL-00001" summary="The database layout was uploaded">
       <option name="closed" value="true" />
@@ -169,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707867706752</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Was created basic navigation">
+      <option name="closed" value="true" />
+      <created>1708449317190</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708449317190</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +214,7 @@
     <MESSAGE value=".idea" />
     <MESSAGE value="Cleared template React" />
     <MESSAGE value="Cleared template React #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleared template React #2" />
+    <MESSAGE value="Was created basic navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Was created basic navigation" />
   </component>
 </project>

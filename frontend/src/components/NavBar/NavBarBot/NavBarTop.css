@@ -1,0 +1,57 @@
+.header-part-top {
+    padding-right: 40px;
+    padding-left: 40px;
+    background: #f7f7f7;
+    font-size: 14px;
+}
+
+.header-part-top .container {
+    grid-template-areas: "contacts menu";
+    grid-template-columns: max-content 1fr;
+    display: grid;
+    grid-column-gap: 30px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0.5vw 0;
+}
+
+.header-part-top .menu {
+    grid-area: menu;
+    min-width: 0;
+}
+
+.header-part-top .menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-part-top .menu li{
+    list-style: none;
+    margin-right: 18px;
+    white-space: nowrap;
+}
+
+.header-part-top .menu li:last-child{
+    margin-right: 0;
+}
+
+.header-part-top .menu a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.header-part-top .contacts {
+    grid-area: contacts;
+    display: flex;
+}
+
+.phone {
+    position: relative;
+    padding-right: 14px;
+}
+
+.phone:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}

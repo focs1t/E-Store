@@ -4,25 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1a3eac-a21c-4f2a-a56f-c9576e449bec" name="Changes" comment="Was created basic navigation">
-      <change afterPath="$PROJECT_DIR$/frontend/src/admin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/css/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/css/NavBar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Oferta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/shopping-cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/store/DeviceStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/store/UserStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/user.png" afterDir="false" />
+    <list default="true" id="1f1a3eac-a21c-4f2a-a56f-c9576e449bec" name="Changes" comment="Was created Header and fixed footer">
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/NavBar/NavBarBot/NavBarTop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/NavBar/NavBarBot/NavBarTop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/NavBar/NavBarMid/NavBarMid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/NavBar/NavBarMid/NavBarMid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/NavBar/NavBarTop/NavBarBot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/NavBar/NavBarTop/NavBarBot.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/AppRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/paths.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/paths.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/NavBar/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/css/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/NavBar/NavBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/UserStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/UserStore.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,26 +63,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Web/E-Store/frontend/src",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "ts.external.directory.path": "C:\\Apps\\WebStorm 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Web/E-Store/frontend/src&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Apps\\WebStorm 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Web\E-Store\frontend\src" />
@@ -96,6 +90,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Web\E-Store\frontend\src" />
+      <recent name="C:\Web\E-Store\frontend\src\components\NavBar" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -138,7 +133,14 @@
       <workItem from="1707940442171" duration="928000" />
       <workItem from="1708365238711" duration="8386000" />
       <workItem from="1708415941658" duration="3843000" />
-      <workItem from="1708449139670" duration="18999000" />
+      <workItem from="1708449139670" duration="19627000" />
+      <workItem from="1708778708154" duration="699000" />
+      <workItem from="1708925583203" duration="566000" />
+      <workItem from="1708940513867" duration="24000" />
+      <workItem from="1708940675082" duration="610000" />
+      <workItem from="1709129875905" duration="980000" />
+      <workItem from="1709192051093" duration="903000" />
+      <workItem from="1709531396174" duration="2174000" />
     </task>
     <task id="LOCAL-00001" summary="The database layout was uploaded">
       <option name="closed" value="true" />
@@ -180,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708449317190</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Was created Header and fixed footer">
+      <option name="closed" value="true" />
+      <created>1708469974922</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708469974922</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +225,7 @@
     <MESSAGE value="Cleared template React" />
     <MESSAGE value="Cleared template React #2" />
     <MESSAGE value="Was created basic navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Was created basic navigation" />
+    <MESSAGE value="Was created Header and fixed footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Was created Header and fixed footer" />
   </component>
 </project>

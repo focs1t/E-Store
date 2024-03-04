@@ -1,0 +1,110 @@
+.header-part-main {
+    padding-right: 40px;
+    padding-left: 40px;
+    height: 80px;
+}
+
+.header-part-main .container {
+    padding: 1vw 0;
+    display: grid;
+    grid-template-areas: "logo search controls";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-row-gap: calc(1.5vw);
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-part-main .logo {
+    grid-area: logo;
+    max-width: 200px;
+    max-height: 50px;
+}
+
+.header-part-main .logo img{
+    max-width: 100%;
+    width: 100%;
+    max-height: 50px;
+    object-fit: contain;
+    object-position: 50%;
+}
+
+.header-part-main .search {
+    grid-area: search;
+    margin: 0 5%;
+}
+
+.header-part-main .search form {
+    position: relative;
+    display: flex;
+    border-radius: 6px;
+    max-width: 700px;
+    background: #f7f7f7;
+}
+
+.header-part-main .search form input{
+    width: 150px;
+    flex-grow: 1;
+    background: #f7f7f7;
+    border: 0;
+    color: #333333;
+    padding: calc(1em * 0.4) 10px;
+}
+
+.header-part-main .search form button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    background: #f7f7f7;
+    color: #808080;
+}
+
+.header-part-main .search form button span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-part-main .search form img {
+    max-width: 100%;
+    width: 100%;
+    max-height: 24px;
+    object-fit: contain;
+    object-position: 50%;
+}
+
+.header-part-main .search form button span:hover {
+    cursor: pointer;
+}
+
+.header-part-main .controls {
+    grid-area: controls;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-part-main .controls a {
+    min-width: 2rem;
+    height: 2rem;
+    display: inline-flex;
+    align-items: center;
+    line-height: 1;
+    text-decoration: none;
+    margin-left: 25px;
+    color: #333333;
+    justify-content: center;
+}
+
+.header-part-main .controls span {
+    position: relative;
+}
+
+.header-part-main .controls img {
+    max-width: 100%;
+    width: 100%;
+    max-height: 24px;
+    object-fit: contain;
+    object-position: 50%;
+}

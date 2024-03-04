@@ -1,0 +1,95 @@
+.header-part-bottom {
+    background-color: #937eb7;
+    position: relative;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.header-part-bottom .container {
+    display: grid;
+    grid-template-areas: "catalog menu";
+    grid-template-columns: max-content 1fr;
+    grid-column-gap: 12px;
+    margin: 0 auto;
+}
+
+.header-part-bottom .container .catalog {
+    grid-area: catalog;
+    min-width: 0;
+}
+
+.header-part-bottom .container .catalog button:hover {
+    cursor: pointer;
+}
+
+.header-part-bottom .container .menu {
+    grid-area: menu;
+}
+
+.header-part-bottom .container .catalog button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 0;
+    position: relative;
+    font-weight: 600;
+    height: 50px;
+    background: #ad96d9;
+    border: none;
+    box-shadow: none;
+    padding: 0 1em;
+    outline: none;
+    transition: color .15s ease-in-out,
+    background .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+    color: #ffffff;
+}
+
+.header-part-bottom .container .catalog .show {
+    margin-right: 15px;
+    font-size: 1.25rem;
+    width: 1.25rem;
+    text-align: center;
+}
+
+.header-part-bottom .container .catalog .show img{
+    max-width: 100%;
+    width: 100%;
+    max-height: 20px;
+    object-fit: contain;
+    object-position: 50%;
+    color: #ffffff;
+}
+
+.header-part-bottom ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header-part-bottom li {
+    position: relative;
+    list-style: none;
+    white-space: nowrap;
+}
+
+.header-part-bottom li a {
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 1em;
+    color: #ffffff;
+}

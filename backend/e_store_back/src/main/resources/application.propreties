@@ -1,0 +1,10 @@
+spring.datasource.url = jdbc:postgresql://localhost/e-store
+spring.datasource.username = postgres
+spring.datasource.password = 18201905
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.generate-ddt=true
+spring.jpa.database=postgresql
+
+e_store.secret = lddjddodss
+e_store.lifetime = 60000
+
